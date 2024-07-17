@@ -78,6 +78,13 @@ h2 {
   gap: 20px;
 }
 
+.gallery-section h1 {
+  text-align: center;
+  color: var(--branding-color);
+  font-family: var(--default-font-family);
+  height: 84px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   font-family: var(--secondary-font-family);
