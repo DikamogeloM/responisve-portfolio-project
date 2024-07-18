@@ -10,6 +10,7 @@
 body {
   font-family: var(--default-font-family);
   background: #1b1b1b;
+  color: var(--branding-color);
 }
 
 h1 {
@@ -32,7 +33,6 @@ h2 {
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: var(--branding-color);
   padding: 160px 0;
   height: 100vh;
 }
@@ -43,7 +43,6 @@ h2 {
 }
 
 .about-section {
-  color: var(--branding-color);
   font-family: var(--default-font-family);
 }
 
@@ -80,9 +79,7 @@ h2 {
 
 .gallery-section h1 {
   text-align: center;
-  color: var(--branding-color);
   font-family: var(--default-font-family);
-  height: 84px;
 }
 
 .btn-branding {
@@ -107,6 +104,20 @@ h2 {
 
 .container {
   margin: 50px auto;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.contact-me h3 {
+  color: #f65282;
+  font-size: 16px;
+}
+
+.contact-me p {
+  font-size: 18px;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
