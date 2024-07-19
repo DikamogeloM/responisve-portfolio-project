@@ -27,6 +27,18 @@ h2 {
   padding-bottom: 10px;
 }
 
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: lightslategrey;
+  opacity: 0.4;
+}
+
 #mainNav {
   background: #1b1b1b;
 }
@@ -96,6 +108,10 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+.copyright {
+  font-size: 10px;
 }
 
 .gallery-section h1 {
