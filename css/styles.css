@@ -213,6 +213,10 @@ footer .social-links a:hover {
     padding: 8px;
   }
 
+  .project {
+    font-size: 12px;
+  }
+
   .container {
     margin: 30px auto;
   }
