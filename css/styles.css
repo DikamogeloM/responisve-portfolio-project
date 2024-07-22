@@ -106,6 +106,16 @@ footer .social-links a:hover {
   gap: 20px;
 }
 
+.social-media a {
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+
+.social-media a:hover {
+  color: lightslategrey;
+  opacity: 0.4;
+}
+
 .copyright {
   font-size: 10px;
 }
