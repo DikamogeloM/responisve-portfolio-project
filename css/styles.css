@@ -70,13 +70,9 @@ footer .social-links a:hover {
   font-size: 18px;
 }
 
-.about-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 .about-section {
   font-family: var(--default-font-family);
+  max-width: 100%;
 }
 
 .about-section .about-image {
